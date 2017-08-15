@@ -28,6 +28,13 @@ class FileUtil {
             val file = File(path)
             return file.exists()
         }
+
+        /**
+         * 获取文件名
+         */
+        fun fileName(nameEnd:String):String?{
+            return System.currentTimeMillis() as String + nameEnd
+        }
     }
 
 }
