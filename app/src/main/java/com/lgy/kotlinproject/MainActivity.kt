@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
         map.put("name", "liguoyue")
         map.put("age", "24")
         map.put("sex", "boy")
+        map.getOrDefault("aaa","hahaha")
 
 
         var c = sum(6, 9)

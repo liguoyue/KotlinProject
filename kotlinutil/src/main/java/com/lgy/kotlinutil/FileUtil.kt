@@ -8,7 +8,6 @@ import java.io.File
  */
 //全是静态方法的类，可以直接在class改为object
 class FileUtil {
-
     //静态方法用companion object｛｝包裹即可
     companion object {
         /**
@@ -28,6 +27,6 @@ class FileUtil {
             val file = File(path)
             return file.exists()
         }
-    }
 
+    }
 }
